@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "responses",
+  "info": {
+    "name": "responses",
+    "description": "Google Assistance responses list."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "intent_name": {
+      "type": "string"
+    },
+    "response": {
+      "type": "string"
+    },
+    "created": {
+      "type": "date"
+    },
+    "updated": {
+      "type": "date",
+      "default": "w"
+    }
+  }
+}
